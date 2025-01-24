@@ -25,8 +25,8 @@ function preload() {
   inicial =     loadImage("/Imagens/Iniciar.png");
   creditos =    loadImage("/Imagens/Créditos.png");
   foguete =     loadImage("/Imagens/foguete.png");
-  eu =          loadImage("/Imagens/Eu.jpg");
-  prof =        loadImage("/Imagens/rosto_prof.JPG");
+//  eu =          loadImage("/Imagens/Eu.jpg");
+//  prof =        loadImage("/Imagens/rosto_prof.JPG");
   trilha =      loadSound('Músicas/trilha.mp3')
 }
 
@@ -113,8 +113,8 @@ function ganhou() {
 
 function Créditos() {
   image(creditos, 0, 0, width, height);
-  image(eu, 64, 210, 173, 171);
-  image(prof, 64, 420, 173, 186);
+//  image(eu, 64, 210, 173, 171);
+//  image(prof, 64, 420, 173, 186);
   
   Texto("Créditos", width/2, 150,fontTitulo, 70, '#FFCE1E', CENTER, CENTER);
 
